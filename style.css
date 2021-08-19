@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(236, 230, 230);
+}
+.HEADING{
+    text-align: center;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: palevioletred;
+    color: aliceblue;
+    margin: 0px;
+    padding: 15px;
+}
+.items{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.items ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 50px;
+}
+.items ul li{
+    padding: 10px;
+}
+#solid{
+    border-style: solid;
+    background: orange;
+}
+#dashed{
+    border-style: dashed;
+    background: olive;
+}
+#Dotted{
+    border-style: dotted;
+    background: royalblue;
+}
+#Double{
+    border-style: double;
+    background: darkkhaki;
+}
+.font-items{
+    font-size: 20px;
+}
+#times{
+    font-family:'Times New Roman', Times, serif;
+}
+#arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cursive{
+    font-family: cursive;
+}
+#georg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#verd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#text1{cursor:pointer;}
+#text2{cursor:crosshair;}
+#text3{cursor:zoom-in;}
+#text4{cursor:zoom-out;}
+#text5{
+cursor:grab;
+}
+.float{
+    display: flex;
+    float: left;
+}
+.div1 {
+    background: red;
+    padding: 12px;
+  }
+  
+  .div2 {
+    background: yellow;
+    padding: 12px;
+  }
+  
+  .div3 {
+    background: green;
+    padding: 12px;
+  }
+ .float-right{
+    display: flex;
+    float: right;
+}
+.div4 {
+    background:palevioletred;
+    padding: 12px;
+  }
+  
+.div5 {
+    background: palegreen;
+    padding: 12px;
+  }
+  
+.div6 {
+    background:yellowgreen;
+    padding: 12px;
+  }
+ .text-aligns{
+    margin: 52px 2px;
+  }
+ #left{
+     text-align: left;
+ } 
+#right{
+    text-align: right;
+}
+#center{
+    text-align: center;
+}
+.end{
+    text-align: center;
+    align-items: center;
+    background-color:palevioletred;
+    padding: 12px;
+    font-size: 19px;
+    color: aliceblue;
+}
+.static {
+    position: static;
+    border: 3px solid #73AD21;
+    background: lawngreen;
+  }
+.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #70afd4;
+    background: rgb(25, 117, 133);
+  }
+ img{
+     opacity: 0.5;
+ }
+ img:hover{
+     opacity: 1.0;
+ }
